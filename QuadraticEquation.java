@@ -13,11 +13,11 @@ class QuadraticEquation {
       System.out.printf("The root is %.1f", solver.getRoot1());
     }
     else {
-      System.out.prinf("The roots are %.1f and %.1f", solver.getRoot1(), solver.getRoot2());
+      System.out.printf("The roots are %.1f and %.1f", solver.getRoot1(), solver.getRoot2());
     }
   }
 
-  class QESolver {
+  static class QESolver {
     private double a;
     private double b;
     private double c;

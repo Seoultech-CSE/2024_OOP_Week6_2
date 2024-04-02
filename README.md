@@ -1,6 +1,6 @@
 # 2024_OOP_Week6_2 : Quadratic Equation
 
-이차방정식 ax^2 + bx + c = 0 의 해를 구하기 위한 클래스 "QuadraticEquation" 을 작성하시오.
+이차방정식 ax^2 + bx + c = 0 의 해를 구하기 위한 클래스 "QESolver" 을 작성하시오.
 세부사항은 다음과 같습니다.
 - 각 3가지 계수를 뜻하는 private 멤버 변수 a, b, c
 - 인자를 이용한 a, b, c의 생성자

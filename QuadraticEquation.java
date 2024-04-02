@@ -1,4 +1,4 @@
-Class QuadraticEquation {
+class QuadraticEquation {
   public static void main(String[] args) {
     java.util.Scanner input = new java.util.Scanner(System.in);
     System.out.print("Enter a, b, c : ");
@@ -10,7 +10,32 @@ Class QuadraticEquation {
     double discriminant = solver.getDiscriminant();
 
     if(discriminant == 0) {
-      System.out.println();
+      System.out.printf("The root is %.1f", solver.getRoot1());
+    }
+    else {
+      System.out.prinf("The roots are %.1f and %.1f", solver.getRoot1(), solver.getRoot2());
+    }
+  }
+
+  class QESolver {
+    private double a;
+    private double b;
+    private double c;
+
+    public QESolver() {
+      // Constructor
+    }
+
+    double getDiscriminant() {
+      // get discriminant number
+    }
+
+    double getRoot1() {
+      // get r1
+    }
+
+    double getRoot2() {
+      // get r2
     }
   }
 }
